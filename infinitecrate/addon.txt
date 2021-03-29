@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    "name"         "Infinite Crate"
+    "version"      "1"
+    "up_date"      "3/28/2021"
+    "author_name"  "Buckell"
+    "author_email" "max@altis.gg"
+    "author_url"   "https://altis.gg/"
+    "info"         "An infinite ammo crate addon for Garry's Mod."
+    "override"     "0"
+}
