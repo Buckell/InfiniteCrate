@@ -73,7 +73,7 @@ else
     function ENT:Draw()
         self:DrawModel()
     
-        local sqr_dist = ply:GetPos():DistToSqr(self:GetPos())
+        local sqr_dist = LocalPlayer():GetPos():DistToSqr(self:GetPos())
         local alpha = 255
         if sqr_dist > 90000 then alpha = Lerp((sqr_dist - 90000) / 90000, 255, 0) end 
         if alpha == 0 then return end
